@@ -31,20 +31,24 @@
 
 .landing__box-slider {
     display: flex;
-    justify-content: center;
-    gap: 20%;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 140px;
     color: #ffffff;
-
+    padding: 0 100px;
 }
 .landing__button-slider-prev {
     
 }
 .landing__slider-text {
     width: 750px;
+    overflow: hidden;
+    
+}
+.landing__slider-track {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    transition: transform 0.5s ease-in-out;
+
 }
 .landing__slider-text h3 {
     font-size: 24px;
@@ -61,6 +65,15 @@
     font-weight: 400;
 
 }
+
+.landing__slider-box-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+}
+
 .landing__button-slider-next {
 
 }
@@ -95,5 +108,6 @@
 
 .landing__create-button:hover {
     background-color: #806deb;
-    transition: 0.4s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+    transform: scale(1.1);
 }

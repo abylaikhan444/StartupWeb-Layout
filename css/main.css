@@ -2,6 +2,10 @@
 @import url(/css/base/reset.css);
 @import url(/css/base/variable.css);
 @import url(/css/base/pagination-dot.css);
+@import url(/css/layouts/content.css);
+@import url(/css/layouts/features.css);
+
+
 
 body {
     font-family: "PT Sans", sans-serif;
