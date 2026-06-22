@@ -1,3 +1,9 @@
 @import url(/css/layouts/landing.css);
 @import url(/css/base/reset.css);
 @import url(/css/base/variable.css);
+@import url(/css/base/pagination-dot.css);
+
+body {
+    font-family: "PT Sans", sans-serif;
+    
+}

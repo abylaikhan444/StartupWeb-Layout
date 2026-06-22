@@ -1,0 +1,99 @@
+.landing__box {
+    height: 850px;
+    background-image: 
+        linear-gradient(90deg,rgba(108, 42, 155, 0.5) 0%, rgba(87, 89, 199, 0.5) 50%, rgba(209, 83, 237, 0.5) 100%), 
+        url(/images/landing-part/vh059-wallpaper.cam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Хорошая практика для фонов */
+}
+.landing__box-navbar {
+    /* margin-top: 85px; */
+    padding-top: 85px;
+}
+.landing__box-navbar ul{
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+    align-items: center;
+}
+.landing__box-navbar a {
+    color: #ffffff;
+
+}
+.landing__box-navbar a:hover {
+    color: rgb(212, 208, 208);
+    transition: 0.3s ease;
+    
+}
+
+
+
+.landing__box-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 140px;
+    color: #ffffff;
+
+}
+.landing__button-slider-prev {
+    
+}
+.landing__slider-text {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing__slider-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.landing__slider-text h2 {
+    font-size: 72px;
+    font-weight: 600;
+
+}
+.landing__slider-text p {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.landing__button-slider-next {
+
+}
+
+.slider-pagination {
+    margin-top: 50px;
+
+}
+.pagination-dot.active {
+    
+}
+.pagination-dot {
+    
+}
+
+.landing__create-button {
+    width: 230px;
+    height: 60px;
+    background-color: #482BE7;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.landing__create-button-box {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.landing__create-button:hover {
+    background-color: #806deb;
+    transition: 0.4s ease;
+}

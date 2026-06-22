@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startup Web</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!--  Landing part -->
+    <div class="landing__box">
+        <nav class="landing__box-navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#"><img src="/images/navbar-part/fa-dribbble.svg" alt="dribble"></a></li>
+                <li><a href="#"><img src="/images/navbar-part/fa-behance.svg" alt="behance"></a></li>
+            </ul>
+        </nav>
+        <div class="landing__box-slider">
+            <button class="landing__button-slider-prev"><</button>
+            <div class="landing__slider-text">
+                <h3>Startup 3</h3>
+                <h2>Forget About Code</h2>
+                <p>
+                    Startup Framework gives you complete freedom over your creative process — you don’t have to think about any technical aspects. 
+                    There are no limits and absolutely no coding. 
+                </p>
+                <div class="slider-pagination">
+                    <button class="pagination-dot active" aria-label="Go to slide 1"></button>
+                    <button class="pagination-dot" aria-label="Go to slide 2"></button>
+                    <button class="pagination-dot" aria-label="Go to slide 3"></button>
+                    <button class="pagination-dot" aria-label="Go to slide 4"></button>
+                    <button class="pagination-dot" aria-label="Go to slide 5"></button>
+                </div>  
+            </div>
+            <button class="landing__button-slider-next">></button>
+        </div>
+        <div class="landing__create-button-box">
+            <button class="landing__create-button">Create an Account</button>
+        </div>
+    </div>
 </body>
 </html>
