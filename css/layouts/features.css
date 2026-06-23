@@ -1,0 +1,126 @@
+.features__box {
+    background-image:
+        linear-gradient(90deg,rgba(108, 42, 155, 0.5) 0%, rgba(29, 31, 114, 0.5) 50%, rgba(139, 31, 163, 0.5) 100%),
+        url(/images/features-part/jeremy-bishop-2e3hgvDnCpM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+
+}
+
+.features__items {
+    padding-top: 100px;
+    height: 535px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.features__items-notebook {
+    position: relative;
+    display: inline-block;
+
+}
+.notebook-screen {
+    position: absolute;
+    top: 25px;
+    z-index: 10;
+}
+.features__text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 600px;
+    color: #ffffff;
+
+}
+.features__text-box1 {
+    grid-column: span 2 / span 2;
+
+}
+.features__text-box1 h2 {
+    font-size: 42px;
+    font-weight: 600;
+
+}
+.features__text-box1 p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+.features__text-box2 {
+    grid-row-start: 2;
+    width: 270px;
+    margin-top: 65px;
+
+}
+.features__text-box2 h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.features__text-box2 p {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 15px;
+
+}
+.features__text-box3 {
+    grid-row-start: 2;
+    width: 270px;
+    margin-top: 65px;
+
+}
+.features__text-box3 h3 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.features__text-box3 p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/* pagination */
+
+.slider-pagination-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px; /* Расстояние между точками */
+    padding: 10px;
+    margin-left: 300px;
+}
+
+.pagination-dot-features {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  /* Полупрозрачная белая рамка для неактивных точек */
+  border: 1.5px solid rgba(255, 255, 255, 0.6); 
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination-dot-features.active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.pagination-dot-features:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.pagination-dot-features:hover {
+  border-color: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
