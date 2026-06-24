@@ -1,47 +1,158 @@
 .form__box {
-
+    height: 750px;
+    background-image: 
+        linear-gradient(90deg, rgba(94, 57, 216, 0.5) 0%, rgba(87, 89, 199, 0.5) 50%, rgba(32, 55, 104, 0.492) 100%),
+        url(/images/form-part/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
 
 .form__items-box {
-
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 450px 0 450px;
+    align-items: center;
+    
 }
 
 .form__items-text {
-
+    width: 370px;
+    color: #ffffff;
+}
+.form__items-text > h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+.form__items-text > p {
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .form__sign-log {
+    width: 550px;
+    height: 470px;
+    background-color: #ffffff;
+    border-radius: 10px;
 
 }
 
-.form__sign-log__buttons {
+.form__sign-log__buttons{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 85px 0 85px;
+    /* border-bottom: 2px solid;
+    border-color: #1E0E62; */
+}
+.sign-btn{
+    color: #1E0E62;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    border-color: #1E0E62;
 
 }
-
-.sign-btn {
-
-}
-
-.login-btn {
+.login-btn{
+    color: #707071;
+    font-weight: 700;
 
 }
+/* .login-btn:hover {
+    color: #1E0E62;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    border-color: #1E0E62;
+    .sign-btn {
+        color: #707071;
+        font-weight: 700;
+    }
+} */
 
-.form__sign-log__inputs {
-
+.form__sign-log__items {
+    display: flex;
+    justify-content: center;
 }
 
-.sign-input {
+.form__sign-log__inputs{
+    display: flex;
+    flex-direction: column;
     
 }
-
-.password-input {
-
-}
-
-.create-btn {
-
-}
-
-.login-twitter-btn {
+.sign-input{
+    width: 330px;
+    height: 50px;
+    border: 1px solid;
+    border-color: #7b7b7b;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 40px;
     
+}
+.password-input{
+    width: 330px;
+    height: 50px;
+    border: 1px solid;
+    border-color: #7b7b7b;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 30px;
+
+}
+.sign-input::placeholder {
+  font-size: 18px;
+  color: #707071;
+}
+.password-input::placeholder {
+  font-size: 18px;
+  color: #707071;
+}
+.create-btn{
+    width: 330px;
+    height: 50px;
+    background-color: #25DAC5;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.login-twitter-btn{
+    width: 330px;
+    height: 50px;
+    background-color: #1DA1F2;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+
+
+.divider {
+  display: flex;
+  align-items: center; /* Выравниваем текст и линии по вертикали */
+  text-align: center;
+  color: #a0a0a0;       /* Цвет текста "or" */
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 20px 0;      /* Отступы сверху и снизу от кнопок */
+}
+
+/* Создаем линии слева и справа от текста */
+.divider::before,
+.divider::after {
+  content: "";
+  flex-grow: 1;        /* Линии займут всё свободное место */
+  background-color: #e0e0e0; /* Цвет линий */
+  height: 1px;         /* Толщина линий */
+}
+
+/* Добавляем небольшие отступы между линиями и текстом */
+.divider::before {
+  margin-right: 15px;
+}
+
+.divider::after {
+  margin-left: 15px;
 }
