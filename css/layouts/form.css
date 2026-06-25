@@ -1,7 +1,7 @@
 .form__box {
     height: 750px;
     background-image: 
-        linear-gradient(90deg, rgba(94, 57, 216, 0.5) 0%, rgba(87, 89, 199, 0.5) 50%, rgba(32, 55, 104, 0.492) 100%),
+        linear-gradient(90deg, rgba(65, 13, 238, 0.7) 0%, rgba(23, 26, 224, 0.7) 50%, rgba(25, 64, 146, 0.7) 100%),
         url(/images/form-part/background-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
