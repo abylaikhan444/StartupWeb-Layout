@@ -1,0 +1,46 @@
+.team__box {
+    background-color: #2F1893;
+    color: #ffffff;
+    padding: 100px 400px;
+}
+.team__text-box {
+    width: 750px;
+    
+}
+.team__text-box>h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+.team__text-box>p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 30px;
+    
+}
+.team__authors-items{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+}
+/* .team__authors-box{
+    
+}
+.team__authors-box>img {
+
+} */
+.team__authors-box>h3 {
+    font-size: 22px;
+
+}
+.team__authors-box>p {
+    font-size: 16px;
+    
+}
+
+.team__authors-box-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
