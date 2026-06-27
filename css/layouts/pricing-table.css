@@ -1,0 +1,122 @@
+.pricing-table__box {
+    background-image:
+        linear-gradient(180deg,rgba(50, 53, 233, 0.5) 0%, rgba(29, 31, 114, 0.5) 50%, rgba(93, 89, 227, 0.5) 100%),
+        url(/images/pricing_table-part/jr-korpa-KZTpv43fve8-unsplash.jpg);
+    background-size: cover;
+    height: 1200px;
+
+}
+.pricing-table__text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.pricing-table__text-box>h2{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+}
+.pricing-table__text-box>p {
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 30px;
+    
+}
+.pricing-table__cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.pricing-table__card-box {
+    border: 1.5px solid;
+    border-color: #737c94;
+    border-radius: 10px;
+    width: 370px;
+    height: 730px;
+
+}
+.starter-card {
+    
+
+}
+.pricing-table__card-box__price-text {
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.pricing-table__card-box__price-text>h3 {
+    color: #ffffff;
+    font-size: 22px;
+
+}
+.pricing-table__card-box__price-dollar{
+    color: #ffffff;
+    display: flex;
+    gap: 5px;
+    
+}
+.pricing-table__card-box__price-dollar>p {
+    font-size: 58px;
+    
+}
+.pricing-table__card-box__price-dollar>img {
+    margin-bottom: 15px;
+    
+}
+.pricing-table__card-box__feeatures-text {
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.feature-list {
+    
+}
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #b5b8c1;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.included{
+    color: #ffffff;
+    
+}
+.icon{
+
+}
+.text{
+
+}
+.pricing-table__card-box__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.pricing-button {
+    width: 230px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #737c94;
+
+}
+.pricing-button:hover {
+    border: none;
+    background-color: #E93A7D;
+    transition: 0.2s ease-in;
+}
+.proffesional-card {
+
+}
+.team-card {
+    
+}
