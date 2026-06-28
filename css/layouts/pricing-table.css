@@ -41,7 +41,8 @@
 
 }
 .starter-card {
-    
+    color: #ffffff;
+
 
 }
 .pricing-table__card-box__price-text {
@@ -51,7 +52,6 @@
 .pricing-table__card-box__price-text>h3 {
     color: #ffffff;
     font-size: 22px;
-
 }
 .pricing-table__card-box__price-dollar{
     color: #ffffff;
@@ -61,6 +61,7 @@
 }
 .pricing-table__card-box__price-dollar>p {
     font-size: 58px;
+    font-weight: 900;
     
 }
 .pricing-table__card-box__price-dollar>img {
